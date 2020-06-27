@@ -1,0 +1,28 @@
+{
+  "name": "ztools-web",
+  "version": "1.0.0",
+  "description": "command line\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[Cweb tool for command options configurations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "wizard",
+    "web",
+    "tools",
+    "command-line"
+  ],
+  "author": "ZimCodes",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "minimist": "^1.2.5",
+    "next": "^9.4.4",
+    "now": "^19.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

@@ -1,0 +1,31 @@
+import Header from '../comps/header';
+import Topbar from '../comps/topbar';
+import Wiz from "../comps/wiz";
+import Wizsection from "../comps/wizsection";
+
+import React from 'react';
+export default class Index extends React.Component{
+
+	constructor(props){
+		super(props);
+		this.state = {
+		
+		}
+	}
+
+	render(){
+		return (
+			<Header>
+				<Topbar/>
+				<section className={'container'}>
+					<Wizsection>
+						<Wiz link={'/'} title={'Wget'}/>
+						<Wiz link={'/'} title={'Youtube-dl'}/>
+						<Wiz link={'/'} title={'FFmpeg'}/>
+					</Wizsection>
+				</section>
+
+			</Header>
+		);
+	}
+} 
