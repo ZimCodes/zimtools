@@ -10,6 +10,6 @@ export default (props) => (
                 </Link>
             </li>
         </ul>
-        <h4 className={"text-center mt-5"}><u>Choose a Wizard:</u></h4>
+        <h3 className={"text-center mt-3"}><u>Choose a Wizard:</u></h3>
     </nav>
 );

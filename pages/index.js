@@ -4,13 +4,10 @@ import Wiz from "../comps/wiz";
 import Wizsection from "../comps/wizsection";
 
 import React from 'react';
-export default class Index extends React.Component{
+class Index extends React.Component{
 
 	constructor(props){
 		super(props);
-		this.state = {
-		
-		}
 	}
 
 	render(){
@@ -28,4 +25,5 @@ export default class Index extends React.Component{
 			</Header>
 		);
 	}
-} 
+}
+export default Index;
