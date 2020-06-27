@@ -16,7 +16,7 @@ class Index extends React.Component{
 				<Topbar/>
 				<section className={'container'}>
 					<Wizsection>
-						<Wiz link={'/'} title={'Wget'}/>
+						<Wiz link={'/zget'} title={'Wget'}/>
 						<Wiz link={'/'} title={'Youtube-dl'}/>
 						<Wiz link={'/'} title={'FFmpeg'}/>
 					</Wizsection>

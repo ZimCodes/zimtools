@@ -1,0 +1,22 @@
+.options{
+    color:#3ce20f;
+}
+.url{
+    color: #efab08;
+}
+.codelayer:hover{
+    cursor:pointer;
+    opacity:0.9;
+}
+.alert{
+    display:none;
+    -moz-animation:fadeout 2s ease;
+    -webkit-animation: fadeout 2s ease;
+    -o-animation: fadeout 2s ease;
+    -ms-animation: fadeout 2s ease;
+    animation: fadeout 2s ease;
+}
+@keyframes fadeout{
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
