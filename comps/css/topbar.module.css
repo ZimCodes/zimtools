@@ -13,3 +13,7 @@
     from{opacity: 1;}
     to{opacity:0;}
 }
+.subnav{
+    color:greenyellow;
+    font-weight: bold;
+}
