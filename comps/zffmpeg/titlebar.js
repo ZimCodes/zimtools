@@ -1,4 +1,5 @@
-import styles from '../../styles/zget/topbar.module.css';
+/*The Title Banner Component*/
+import styles from '../../styles/zffmpeg/titlebar.module.css';
 import Link from 'next/link';
 export default (props) => (
 	<nav className={'mx-auto'}>
@@ -13,8 +14,7 @@ export default (props) => (
 					</svg>
 				</a>
 			</Link>
-			<h1 className={`${styles.h1} col text-center text-white font-weight-bolder `}>Zget@Codes ~> <span className={styles.span}>_</span> </h1>
+			<h1 className={`${styles.h1} col text-center text-white font-weight-bolder`}>ZFFmpeg ~> <span className={styles.span}>_</span> </h1>
 		</div>
-
 	</nav>
 );

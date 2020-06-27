@@ -18,7 +18,7 @@ class Index extends React.Component{
 					<Wizsection>
 						<Wiz link={'/zget'} title={'Wget'}/>
 						<Wiz link={'/ztube-dl'} title={'Youtube-dl'}/>
-						<Wiz link={'/'} title={'FFmpeg'}/>
+						<Wiz link={'/zffmpeg'} title={'FFmpeg'}/>
 					</Wizsection>
 				</section>
 

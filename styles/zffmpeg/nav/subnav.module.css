@@ -1,0 +1,27 @@
+.button{
+    background-color:#00cc44;
+    border-bottom:2pt dashed #000;
+    color:#ffffff;
+}
+.button:last-child{
+    border-bottom:0;
+}
+.button:hover{
+    background-color:#999999;
+    color:#fff;
+}
+.div{
+    -moz-animation: reveal 0.75s ease-in;
+    -ms-animation: reveal 0.75s ease-in;
+    -o-animation: reveal 0.75s ease-in;
+    -webkit-animation: reveal 0.75s ease-in;
+    animation: reveal 0.75s ease-in;
+}
+@keyframes reveal{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}

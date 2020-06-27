@@ -2,7 +2,7 @@ import styles from '../../styles/ztube-dl/topbar.module.css';
 import Link from 'next/link';
 export default (props) => (
     <nav className={'mx-auto'}>
-        <div className={'bg-danger pb-1 row'}>
+        <div className={'bg-danger row'}>
             <Link href={'/'}>
                 <a>
                     <svg width="3em" height="3em" viewBox="0 0 16 16" className={`${styles.svg} bi bi-arrow-left`} fill="yellow" stroke="yellow" strokeWidth={"1"}
