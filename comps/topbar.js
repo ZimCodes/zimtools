@@ -1,4 +1,4 @@
-import styles from './css/topbar.module.css';
+import styles from '../styles/main/topbar.module.css';
 import Link from 'next/link';
 export default (props) => (
     <nav>

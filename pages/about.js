@@ -1,4 +1,4 @@
-import styles from '../comps/css/about.module.css';
+import styles from '../styles/main/about.module.css';
 import Link from 'next/link';
 import Header from '../comps/header';
 const About = ()=>(
