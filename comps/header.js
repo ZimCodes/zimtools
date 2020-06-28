@@ -9,7 +9,7 @@ export default (props) =>(
             <meta name="name" content="Zget"/>
             <meta name="description" content="Zim's command-line options configurator. Make using the command-line interface easier with this productive web tool."/>
             <meta name="keywords" content="wget,ffmpeg,youtube-dl,zim,wizard,options,configurator,commandline"/>
-            <title>Zim's Wizard</title>
+            <title>ZimTools</title>
         </Head>
         {props.children}
     </div>
