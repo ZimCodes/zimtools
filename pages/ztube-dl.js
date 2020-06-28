@@ -19,7 +19,7 @@ import {preConfig,videoSelect,download,file,work,videoFormat,subAuth,post} from 
 
 import styles from '../styles/ztube-dl/index.module.css';
 let commandslist = [];
-const DATE_MODIFIED = "June 27, 2020";
+const DATE_MODIFIED = "June 28, 2020";
 const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=Ztube-dl%20Feedback";
 
 class Index extends React.Component{

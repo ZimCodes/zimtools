@@ -20,7 +20,7 @@ let outputTwoCommandList = [];
 let outputThreeCommandList = [];
 let globalCommandList = [];
 /*The last date this was modified*/
-const DATE_MODIFIED = "June 27, 2020";
+const DATE_MODIFIED = "June 28, 2020";
 /*The Email to use when receiving feedback*/
 const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=ZFFmpeg%20Feedback";
 class Index extends React.Component{
