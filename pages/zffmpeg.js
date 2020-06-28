@@ -6,7 +6,7 @@ import GlobalOptions from "../comps/zffmpeg/option/GlobalOptions";
 import Outputcode from "../comps/zffmpeg/outputcode";//Imports the output component
 import IconNav from "../comps/zffmpeg/nav/iconnav";//Imports F.A.B Components
 import {globalEntry,iMainEntry,oMainEntry,oVideoEntry,oAdvancedEntry} from "../comps/zffmpeg/CommStorage";//Imports text command storage Component
-
+import {ZFFMPEG} from "../comps/date";
 import React from 'react';//React dependency
 
 /* The Commandlist's job is to persistently hold all options the user wants to configure.*/
@@ -20,7 +20,7 @@ let outputTwoCommandList = [];
 let outputThreeCommandList = [];
 let globalCommandList = [];
 /*The last date this was modified*/
-const DATE_MODIFIED = "June 28, 2020";
+const DATE_MODIFIED = ZFFMPEG;
 /*The Email to use when receiving feedback*/
 const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=ZFFmpeg%20Feedback";
 class Index extends React.Component{

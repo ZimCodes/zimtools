@@ -10,13 +10,14 @@ import AcceptRejectOptions from "../comps/zget/option/AcceptRejectOptions";
 import WgetCode from "../comps/zget/wgetcode";
 import FileOptions from "../comps/zget/option/FileOptions";
 import {dlprev,dirprev,recursive,accRej,file,http} from "../comps/zget/CommStorage";
+import {ZGET} from "../comps/date";
 
 import React from 'react';
 import styles from '../styles/zget/index.module.css';
 const defaultCommands = ['-e robots=off','--no-check-certificate','-nc','-nH','--no-cache','-R ".DS_Store,Thumbs.db,thumbcache.db,desktop.ini,_macosx,index.html*"'];
 let commandslist = defaultCommands;
 
-const DATE_MODIFIED = "June 27, 2020";
+const DATE_MODIFIED = ZGET;
 const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=Zget%20Feedback";
 class Index extends React.Component{
 

@@ -16,10 +16,11 @@ import VideoFormat from "../comps/ztube-dl/option/VideoFormat";
 import SubAuth from "../comps/ztube-dl/option/SubAuth";
 import PostProcess from "../comps/ztube-dl/option/PostProcess";
 import {preConfig,videoSelect,download,file,work,videoFormat,subAuth,post} from "../comps/ztube-dl/CommStorage";
+import {ZTUBE_DL} from "../comps/date";
 
 import styles from '../styles/ztube-dl/index.module.css';
 let commandslist = [];
-const DATE_MODIFIED = "June 28, 2020";
+const DATE_MODIFIED = ZTUBE_DL;
 const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=Ztube-dl%20Feedback";
 
 class Index extends React.Component{

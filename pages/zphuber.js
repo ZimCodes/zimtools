@@ -6,6 +6,8 @@ import FilterOptions from "../comps/zphuber/option/FilterOptions";
 import Filterrow from "../comps/zphuber/table/filterrow";
 import Outputcode from "../comps/zphuber/outputcode";//Imports the output component
 import {mainCommandEntry,filterCommandEntry} from"../comps/zphuber/CommStorage";//Imports text command storage Component
+import {ZPHUBER} from "../comps/date";
+
 import React from 'react';//React dependency
 /*The Default commands to start with*/
 const defaultCommands = [];
@@ -14,7 +16,7 @@ const defaultCommands = [];
 * The Commandlist's job is to persistently hold all options the user wants to configure.*/
 let commandslist = defaultCommands;
 /*The last date this was modified*/
-const DATE_MODIFIED = "June 28, 2020";
+const DATE_MODIFIED = ZPHUBER;
 /*The Email to use when receiving feedback*/
 const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=ZPhuber%20Feedback";
 class Index extends React.Component{
