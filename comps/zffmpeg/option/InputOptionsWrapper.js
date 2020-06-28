@@ -9,7 +9,7 @@ export default (props) =>(
             <button className="col btn btn-success font-weight-bolder"><em>Advanced</em></button>
         </section>*/}
         <table className="table table-striped table-bordered table-hover text-center">
-            <thead className={"thead-dark"}>
+            <thead className={"thead-dark shadow"}>
             <tr>
                 <th className={styles.th} style={{color: '#00ff00'}} scope="col">Command</th>
                 <th className={styles.th} style={{color: '#00ff00'}} scope="col">#</th>
