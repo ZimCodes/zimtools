@@ -10,7 +10,7 @@ export default (props) =>(
         </section>*/}
         <table className="table table-striped table-bordered table-hover text-center">
             <thead>
-            <tr>
+            <tr className={`${styles.tr} table-dark text-warning`}>
                 <th scope="col">Command</th>
                 <th scope="col">Input</th>
                 <th scope="col">Description</th>
