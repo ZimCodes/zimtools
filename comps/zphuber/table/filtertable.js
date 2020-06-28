@@ -6,7 +6,7 @@ export default (props)=>(
         <h4 className={'text-center pb-3'}>Click categories to exclude. <strong>[Max: 10]</strong></h4>
         <table className="table table-sm table-striped table-bordered table-hover text-center">
             <thead>
-                <tr>
+                <tr className={`${styles.tr} shadow table-dark text-warning`}>
                     <th scope="col">Column #1</th>
                     <th scope="col">Column #2</th>
                     <th scope="col">Column #3</th>

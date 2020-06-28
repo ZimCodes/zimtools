@@ -6,7 +6,6 @@ import FilterOptions from "../comps/zphuber/option/FilterOptions";
 import Filterrow from "../comps/zphuber/table/filterrow";
 import Outputcode from "../comps/zphuber/outputcode";//Imports the output component
 import {mainCommandEntry,filterCommandEntry} from"../comps/zphuber/CommStorage";//Imports text command storage Component
-
 import React from 'react';//React dependency
 /*The Default commands to start with*/
 const defaultCommands = [];

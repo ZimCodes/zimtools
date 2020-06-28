@@ -5,13 +5,13 @@ const CATEGORY_URL = <a href="https://github.com/ZimCodes/phuber#category-keywor
 
 export default (props) => (
     <Options title="Filter Options" id="filter">
-        <tr>
+        <tr className={'table-warning'}>
             <td>Only Premium</td>
             <td className="align-middle"><input name="premium" type="checkbox" onChange={props.filterCheckInput}/></td>
             <td className="text-center">Retrieve only premium videos. <strong>Must have a premium account!</strong> {REF_URL}</td>
         </tr>
         {/*Example #1:*/}
-        <tr>
+        <tr className={'table-secondary'}>
             <td>Production Type</td>
             <td className="align-middle">
                 <select name="production" defaultValue={''} onChange={props.filterTextProps}>
@@ -23,7 +23,7 @@ export default (props) => (
             <td className="text-center">Production of the video. {REF_URL}</td>
         </tr>
         {/*Example #2:*/}
-        <tr>
+        <tr className={'table-warning'}>
             <td>Min Duration</td>
             <td className="align-middle">
                 <select name="min" defaultValue={''} onChange={props.filterTextProps}>
@@ -35,7 +35,7 @@ export default (props) => (
             </td>
             <td className="text-center">Minimum length of the videos. <em>Default: '0'</em>. {REF_URL}</td>
         </tr>
-        <tr>
+        <tr className={'table-secondary'}>
             <td>Max Duration</td>
             <td className="align-middle">
                 <select name="max" defaultValue={''} onChange={props.filterTextProps}>
@@ -47,7 +47,7 @@ export default (props) => (
             </td>
             <td className="text-center">Maximum length of the videos. <em>Default: '40'</em>. {REF_URL}</td>
         </tr>
-        <tr>
+        <tr className={'table-warning'}>
             <td>Include Category</td>
             <td className="align-middle"><input name="include" type="text" onChange={props.filterTextProps}/></td>
             <td className="text-center">The category to filter into the search. <strong>Can only write <u>ONE</u></strong>. {CATEGORY_URL}|{REF_URL}</td>
