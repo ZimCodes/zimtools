@@ -15,6 +15,13 @@ export default (props) => (
 				</a>
 			</Link>
 			<h1 className={`${styles.h1} col text-center text-white font-weight-bolder`}>ZFFmpeg ~> <span className={styles.span}>_</span> </h1>
+			<ul className={"nav bg-secondary"}>
+				<li className={`nav-item`}>
+					<Link href={'/zffmpeg/tips'} passHref>
+						<a rel='noopener noreferrer' target={'_blank'} className={`nav-link ${styles.subnav}`}>Tips</a>
+					</Link>
+				</li>
+			</ul>
 		</div>
 	</nav>
 );

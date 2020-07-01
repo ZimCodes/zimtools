@@ -15,3 +15,12 @@
 .svg:hover{
     opacity:0.5;
 }
+.subnav{
+    color:greenyellow;
+    font-weight: bold;
+    font-size:20px;
+}
+.subnav:hover{
+    color:greenyellow;
+    opacity:0.7;
+}

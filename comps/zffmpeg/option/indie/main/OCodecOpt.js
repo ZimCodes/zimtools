@@ -12,6 +12,6 @@ export default (props) => (
             <td className="align-middle">
 				<input id={props.id} className={props.sector} name="codec" type="text" placeholder=":a:2 ac3" onChange={props.mainTxt}/>
 			</td>
-            <td className={`text-center`}>1.)Select a <u>[stream type]</u>. <em><strong>:a</strong>=audio, <strong>:v</strong>=video, <strong>:s</strong>=subtitle, <strong>:d</strong>=data</em>. Follow by the <u>[stream index]</u><br/><br/>2.)Type a <u>[decoder]</u> to use for the stream.<br/> {CODEC_URL}|{REF_URL}</td>
+            <td className={`text-center`}>1.)Select a <u>[stream type]</u>. <em><strong>:a</strong>=audio, <strong>:v</strong>=video, <strong>:s</strong>=subtitle, <strong>:d</strong>=data <strong>:t</strong>=attachment</em>. Follow by the <u>[stream index]</u><br/><br/>2.)Type an <u>[encoder]</u> to use for the stream.<br/> {CODEC_URL}|{REF_URL}</td>
         </tr>
 );
