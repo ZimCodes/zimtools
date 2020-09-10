@@ -5,7 +5,7 @@ export default (props) => (
             <td className={'align-middle'}>{props.title}</td>
 			<td className={`align-middle ${props.hide}`}>
 				<input id={props.id} className={props.sector} name="frames_num" type="number" min="0" size="1" onChange={props.getFramesNum}/><br/>
-				<button id={props.sector} className={"btn btn-secondary mt-3"} type="button" name="output_frames" onClick={props.resetClick}>Reset Frames</button>
+				<button id={props.sector} className={"btn btn-secondary mt-3"} type="button" name="output_frames" onClick={props.resetClick}>Reset</button>
 			</td>
             <td className="align-middle">
 				<input id={props.id} className={props.sector} name="frames" type="text" placeholder=":a 15000" onChange={props.mainTxt}/>

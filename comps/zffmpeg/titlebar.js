@@ -14,7 +14,7 @@ export default (props) => (
 					</svg>
 				</a>
 			</Link>
-			<h1 className={`${styles.h1} col text-center text-white font-weight-bolder`}>ZFFmpeg ~> <span className={styles.span}>_</span> </h1>
+			<h1 className={`${styles.h1} col text-center text-white font-weight-bolder`}>zFFmpeg ~> <span className={styles.span}>_</span> </h1>
 			<ul className={"nav bg-secondary"}>
 				<li className={`nav-item`}>
 					<Link href={'/zffmpeg/tips'} passHref>

@@ -1,5 +1,5 @@
 const Wizsection = (props)=>(
-    <section className={'row'}>
+    <section className={'row mt-5'}>
         {props.children}
     </section>
 );

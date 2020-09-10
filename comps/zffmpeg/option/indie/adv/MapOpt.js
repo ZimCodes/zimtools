@@ -5,7 +5,7 @@ export default (props) => (
             <td className={'align-middle'}>{props.title}</td>
 			<td className={`align-middle ${props.hide}`}>
 				<input id={props.id} className={props.sector} name="map_num" type="number" min="0" size="1" onChange={props.getMapNum}/><br/>
-				<button className={"btn btn-secondary mt-3"} type="button" name="output_map" onClick={props.resetClick}>Reset Maps</button>
+				<button className={"btn btn-secondary mt-3"} type="button" name="output_map" onClick={props.resetClick}>Reset</button>
 			</td>
             <td className="align-middle">
 				<input id={props.id} className={props.sector} name="map" type="text" placeholder="0:a:2" onChange={props.advTxt}/>

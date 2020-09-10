@@ -1,12 +1,19 @@
 import Link from "next/link";
-
+import React from "react";
+import styles from "../styles/main/global_tools.module.css";
 const Wiz = (props) => (
-    <div className={'col-3 mt-5'}>
+    <div className="col-lg-3">
         <Link href={props.link}>
-            <a className={'btn btn-secondary text-white shadow font-weight-bold'}>
-                {props.title}
+            <a className={styles.noUnderline}>
+                <div className={`card text-center ${styles.shadow}`}>
+                    <h3 className={`card-header font-weight-bold ${props.headStyle}`}>{props.title}</h3>
+                    <div className="card-body">
+                        <div className="card-text text-dark">{props.about}</div>
+                    </div>
+                </div>
             </a>
         </Link>
     </div>
+
 );
 export default Wiz;
