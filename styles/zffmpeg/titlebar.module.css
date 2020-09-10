@@ -1,5 +1,6 @@
 .h1{
     text-shadow:1px 1px 4px #000;
+    color: rgb(0,255,127);
 }
 .span{
     -ms-animation: blink 1s infinite alternate;
