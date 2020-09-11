@@ -197,9 +197,9 @@ class Index extends React.Component{
                     <FilterOptions filterTextProps={this.filterTextProps} filterCheckInput={this.filterCheckbox}/>
                     <Filterrow getFilter={this.getFilter}/>
                 </div>
-                <footer className="py-2 text-center bg-dark text-white">
+                <footer className="py-2 text-center bg-secondary text-warning">
                     <address style={{textDecoration:'underline'}}>
-                        <a className="text-light font-weight-bold" href={FEEDBACK_EMAIL}>Send Feedback</a>
+                        <a className="text-warning font-weight-bold" href={FEEDBACK_EMAIL}>Send Feedback</a>
                     </address>
                     <p>Updated {DATE_MODIFIED}</p>
                 </footer>

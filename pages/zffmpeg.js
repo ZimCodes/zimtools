@@ -8,6 +8,7 @@ import IconNav from "../comps/zffmpeg/nav/iconnav";//Imports F.A.B Components
 import {globalEntry,iMainEntry,oMainEntry,oVideoEntry,oAdvancedEntry} from "../comps/zffmpeg/CommStorage";//Imports text command storage Component
 import {ZFFMPEG} from "../comps/date";
 import React from 'react';//React dependency
+import styles from '../styles/zffmpeg/foot.module.css';
 
 /* The Commandlist's job is to persistently hold all options the user wants to configure.*/
 let inputFiles = ['','',''];
@@ -581,9 +582,9 @@ class Index extends React.Component{
                     }
                     )}
                 </div>
-                <footer className="py-2 text-center bg-dark text-white">
-                    <address style={{textDecoration: 'underline'}}>
-                        <a className="text-light font-weight-bold" href={FEEDBACK_EMAIL}>Send Feedback</a>
+                <footer className={`py-2 text-center bg-dark ${styles.foot}`}>
+                    <address>
+                        <a className={`font-weight-bold ${styles.footlink}`} href={FEEDBACK_EMAIL}>Send Feedback</a>
                     </address>
                     <p>Updated {DATE_MODIFIED}</p>
                 </footer>

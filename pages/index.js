@@ -25,7 +25,7 @@ class Index extends React.Component{
 						<Wiz link={'/zffmpeg'} title={'FFmpeg'} headStyle={styles.ffmpeg}
 							 about="Multimedia framework with ability to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created."/>
 						<Wiz link={'/zphuber'} title={'Phuber'} headStyle={styles.phuber}
-						about="A Beautiful Soul tool for retrieving video links from PornHub."/>
+						about="A Beautiful Soup tool for retrieving video links from PornHub."/>
 					</Wizsection>
 				</section>
 
