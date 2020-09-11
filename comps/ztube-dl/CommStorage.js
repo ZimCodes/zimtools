@@ -12,7 +12,10 @@ export let videoSelect = {
     minsize:'',
     maxsize:'',
     minviews:'',
-    maxviews:''
+    maxviews:'',
+    date:'',
+    dateafter:'',
+    datebefore:''
 };
 export let download = {
     limit:'',
@@ -26,7 +29,8 @@ export let file = {
 export let work = {
     agent:'',
     sleep:'',
-    maxsleep:''
+    maxsleep:'',
+    geo:''
 };
 export let videoFormat = {
     format:'',
@@ -39,5 +43,6 @@ export let post = {
     format:'',
     quality:'',
     ffmpegloc:'',
-    sub:''
+    sub:'',
+    reencode:''
 };

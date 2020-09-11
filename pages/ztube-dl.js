@@ -260,6 +260,43 @@ class Index extends React.Component{
                     videoSelect.maxviews = ``;
                 }
                 break;
+            case 'date':
+                command = `--date "${elemVal}"`;
+                if(commandslist.includes(videoSelect.date)){
+                    commandslist.splice(commandslist.indexOf(videoSelect.date),1);
+                }
+                videoSelect.date = command;
+                commandslist.push(command);
+                if(elemVal === ''){
+                    commandslist.splice(commandslist.indexOf(videoSelect.date),1);
+                    videoSelect.date = ``;
+                }
+                break;
+            case 'datebefore':
+                command = `--datebefore "${elemVal}"`;
+                if(commandslist.includes(videoSelect.datebefore)){
+                    commandslist.splice(commandslist.indexOf(videoSelect.datebefore),1);
+                }
+                videoSelect.datebefore = command;
+                commandslist.push(command);
+                if(elemVal === ''){
+                    commandslist.splice(commandslist.indexOf(videoSelect.datebefore),1);
+                    videoSelect.datebefore = ``;
+                }
+                break;
+            case 'dateafter':
+                command = `--dateafter "${elemVal}"`;
+                if(commandslist.includes(videoSelect.dateafter)){
+                    commandslist.splice(commandslist.indexOf(videoSelect.dateafter),1);
+                }
+                videoSelect.dateafter = command;
+                commandslist.push(command);
+                if(elemVal === ''){
+                    commandslist.splice(commandslist.indexOf(videoSelect.dateafter),1);
+                    videoSelect.dateafter = ``;
+                }
+                break;
+
         }
         this.setState({options:commandslist});
     }
@@ -453,6 +490,18 @@ class Index extends React.Component{
                     work.maxsleep = ``;
                 }
                 break;
+            case 'geobypass':
+                command = `--geo-bypass-country "${elemVal}"`;
+                if(commandslist.includes(work.geo)){
+                    commandslist.splice(commandslist.indexOf(work.geo),1);
+                }
+                work.geo = command;
+                commandslist.push(command);
+                if(elemVal === ''){
+                    commandslist.splice(commandslist.indexOf(work.geo),1);
+                    work.geo = ``;
+                }
+                break;
         }
         this.setState({options:commandslist});
     }
@@ -616,6 +665,31 @@ class Index extends React.Component{
                     post.sub = ``;
                 }
                 break;
+            case 'reencode':
+                if(elemVal === 'mp4'){
+                    command = '--recode-video "mp4"';
+                }else if(elemVal === 'flv'){
+                    command = '--recode-video "flv"';
+                }else if(elemVal === 'ogg'){
+                    command = '--recode-video "ogg"';
+                }else if(elemVal === 'webm'){
+                    command = '--recode-video "webm"';
+                }else if(elemVal === 'mkv'){
+                    command = '--recode-video "mkv"';
+                }
+                else if(elemVal === 'avi'){
+                    command = '--recode-video "avi"';
+                }
+                if(commandslist.includes(post.sub)){
+                    commandslist.splice(commandslist.indexOf(post.sub),1);
+                }
+                post.sub = command;
+                commandslist.push(command);
+                if(elemVal === ''){
+                    commandslist.splice(commandslist.indexOf(post.sub),1);
+                    post.sub = ``;
+                }
+                break;
         }
         this.setState({options:commandslist});
     }
@@ -637,6 +711,9 @@ class Index extends React.Component{
                 break;
             case 'avconv':
                 command = '--prefer-avconv';
+                break;
+            case 'keepvid':
+                command = '-k';
                 break;
         }
         elemVal ? commandslist.push(command) : commandslist.splice(commandslist.indexOf(command),1);
