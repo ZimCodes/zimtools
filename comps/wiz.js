@@ -6,7 +6,7 @@ const Wiz = (props) => (
         <Link href={props.link}>
             <a className={styles.noUnderline}>
                 <div className={`card text-center ${styles.shadow}`}>
-                    <h3 className={`card-header font-weight-bold ${props.headStyle}`}>{props.title}</h3>
+                    <h3 className={`${styles.cardHeader} card-header font-weight-bold ${props.headStyle}`}>{props.title}</h3>
                     <div className="card-body">
                         <div className="card-text text-dark">{props.about}</div>
                     </div>

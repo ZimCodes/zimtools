@@ -4,7 +4,6 @@
 .span{
     -moz-animation: blink 1s infinite alternate;
     -webkit-animation: blink 1s infinite alternate;
-    -ms-animation: blink 1s infinite alternate;
     -o-animation: blink 1s infinite alternate;
     animation: blink 1s infinite alternate;
 }

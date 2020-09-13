@@ -11,3 +11,6 @@
 .noUnderline:hover{
     text-decoration: none;
 }
+.cardHeader{
+    text-shadow: 1pt 1pt 2pt #000000;
+}

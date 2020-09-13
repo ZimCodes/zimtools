@@ -1,6 +1,6 @@
 .h1{
     text-shadow:1px 1px 4px #000;
-    color: rgb(0,255,127);
+    background-color: #093754;
 }
 .span{
     -moz-animation: blink 1s infinite alternate;
@@ -13,14 +13,5 @@
     to{opacity:0;}
 }
 .svg:hover{
-    opacity:0.5;
-}
-.subnav{
-    color:greenyellow;
-    font-weight: bold;
-    font-size:20px;
-}
-.subnav:hover{
-    color:greenyellow;
-    opacity:0.7;
+    opacity: .5;
 }

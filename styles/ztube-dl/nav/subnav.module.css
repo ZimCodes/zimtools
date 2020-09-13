@@ -12,7 +12,6 @@
 }
 .div{
     -moz-animation: reveal 0.75s ease-in;
-    -ms-animation: reveal 0.75s ease-in;
     -o-animation: reveal 0.75s ease-in;
     -webkit-animation: reveal 0.75s ease-in;
     animation: reveal 0.75s ease-in;

@@ -1,6 +1,5 @@
 .span{
     text-shadow:1px 1px 4px;
-    -ms-animation: accent 2s infinite alternate;
     -moz-animation: accent 2s infinite alternate;
     -o-animation: accent 2s infinite alternate;
     -webkit-animation: accent 2s infinite alternate;

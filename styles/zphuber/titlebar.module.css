@@ -2,7 +2,6 @@
     text-shadow:1px 1px 4px #000;
 }
 .span{
-    -ms-animation: blink 1s infinite alternate;
     -moz-animation: blink 1s infinite alternate;
     -o-animation: blink 1s infinite alternate;
     -webkit-animation: blink 1s infinite alternate;

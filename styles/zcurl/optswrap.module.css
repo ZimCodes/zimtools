@@ -1,0 +1,17 @@
+.a{
+    color:#ff4d4d;
+    text-decoration:none;
+}
+.a:hover{
+    color:#b30000;
+}
+.span{
+    text-decoration: underline;
+}
+.header{
+    background-color: #1479b8;
+    color:#ffffff;
+}
+.tr{
+    text-shadow: 1pt 2pt 2pt #000;
+}
