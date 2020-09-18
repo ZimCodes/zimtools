@@ -43,17 +43,17 @@ const VideoSelection = props => <Options title="Video Selection" id={"select"}>
         <td className="text-center align-middle">Do not download any videos smaller/larger than <em>[<strong>SIZE</strong>]</em>. <em>‘k’ suffix for Kilobytes, ‘m’ suffix for Megabytes.</em> {REF_URL}</td>
     </tr>
     <tr>
-        <td><span className="badge badge-warning">*New</span> Select Date Before</td>
+        <td><span className="badge badge-warning">*New</span> Date Before</td>
         <td className="align-middle"><input name="datebefore" type="text" placeholder="20091231" onChange={props.videoSelectTextInput} /></td>
         <td className="text-center">Download only videos uploaded on or before this date <em>(inclusive)</em>. {DATE_URL}|{REF_URL}</td>
     </tr>
     <tr>
-        <td><span className="badge badge-warning">*New</span> Select Date</td>
+        <td><span className="badge badge-warning">*New</span> Date</td>
         <td className="align-middle"><input name="date" type="text" placeholder="20000101" onChange={props.videoSelectTextInput} /></td>
         <td className="text-center">Download only videos uploaded on this date. {DATE_URL}|{REF_URL}</td>
     </tr>
     <tr>
-        <td><span className="badge badge-warning">*New</span> Select Date After</td>
+        <td><span className="badge badge-warning">*New</span> Date After</td>
         <td className="align-middle"><input name="dateafter" type="text" placeholder="19700101" onChange={props.videoSelectTextInput} /></td>
         <td className="text-center">Download only videos uploaded on or after this date <em>(inclusive)</em>. {DATE_URL}|{REF_URL}</td>
     </tr>

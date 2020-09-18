@@ -1,6 +1,6 @@
 import Options from './optionWrapper';
 const REF_URL = <a href="https://github.com/ytdl-org/youtube-dl/blob/master/README.md#workarounds" target="_blank" rel="noreferrer noopener">More Info</a>;
-
+const GEO_URL = <a href="https://github.com/ytdl-org/youtube-dl/blob/master/README.md#geo-restriction" target="_blank" rel="noreferrer noopener">More Info</a>;
 const WorkAround = props => <Options title="Work Around" id={"work"}>
     <tr>
         <td>Don't Check Certificate</td>
@@ -25,7 +25,7 @@ const WorkAround = props => <Options title="Work Around" id={"work"}>
     <tr>
         <td><span className="badge badge-warning">*New</span> Geo Bypass</td>
         <td className="align-middle"><input name="geobypass" type="text" maxLength="2" placeholder="CJ" onChange={props.workTextInput}/> </td>
-        <td className="text-center">Force bypass geographic restriction by providing the <em>[<strong>ISO Country Code</strong>]</em>. {REF_URL}</td>
+        <td className="text-center">Force bypass geographic restriction by providing the <em>[<strong>ISO Country Code</strong>]</em>. {GEO_URL}</td>
     </tr>
 </Options>;
 
