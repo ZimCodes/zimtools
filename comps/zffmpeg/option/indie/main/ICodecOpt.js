@@ -5,7 +5,7 @@ const CODEC_URL = <a href="https://ffmpeg.org/ffmpeg-codecs.html" target="_blank
 const ICodecOpt = props => <tr>
     <td className={'align-middle'}>{props.title}</td>
     <td className={`align-middle ${props.hide}`}>
-        <input id={props.id} className={props.sector} name="codec_num" type="number" min="0" size="1" onChange={props.getCodecNum}/>
+        <input id={props.id} className={props.sector} name="codec_num" type="number" min="0" size="1" defaultValue={"0"} onChange={props.getCodecNum}/>
         <button id={props.sector} className={"btn btn-secondary mt-3"} type="button" name="input_codec" onClick={props.resetClick}>Reset</button>
     </td>
     <td className="align-middle">

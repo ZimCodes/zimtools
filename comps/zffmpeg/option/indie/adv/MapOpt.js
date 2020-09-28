@@ -4,7 +4,7 @@ const REF_URL = <a href="https://ffmpeg.org/ffmpeg.html#Main-options" target="_b
 const MapOpt = props => <tr>
     <td className={'align-middle'}>{props.title}</td>
     <td className={`align-middle ${props.hide}`}>
-        <input id={props.id} className={props.sector} name="map_num" type="number" min="0" size="1" onChange={props.getMapNum}/><br/>
+        <input id={props.id} className={props.sector} name="map_num" type="number" min="0" size="1" defaultValue={"0"} onChange={props.getMapNum}/><br/>
         <button className={"btn btn-secondary mt-3"} type="button" name="output_map" onClick={props.resetClick}>Reset</button>
     </td>
     <td className="align-middle">
