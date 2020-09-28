@@ -10,7 +10,7 @@ const Header = props => <div>
         <meta name="author" content="Zim" />
         <meta name="description" content="Phuber options configurator. Make using the command-line interface easier with this productive web tool."/>
         <meta name="keywords" content="phuber,options,configurator,tool,wizard,command line"/>
-        <title>Phuber Options Configurator</title>
+        <title>Phuber Configurator</title>
     </Head>
     {props.children}
 </div>;

@@ -10,7 +10,7 @@ const Header = props => <div>
         <meta name="author" content="Zim" />
         <meta name="description" content="FFmpeg options configurator. Make using the command-line interface easier with this productive web tool."/>
         <meta name="keywords" content="options,configurator,wizard,command line,ffmpeg"/>
-        <title>FFmpeg Options Configurator</title>
+        <title>FFmpeg Configurator</title>
     </Head>
     {props.children}
 </div>;

@@ -1,4 +1,4 @@
-import Header from '../comps/header';//Imports HTML <head> tag
+import Header from '../comps/zcurl/header';//Imports HTML <head> tag
 import Titlebar from '../comps/zcurl/titlebar';//Imports the Title banner for the current page
 import Url from '../comps/zcurl/url';//Imports the URL input field & glowing label
 import GeneralOptions from '../comps/zcurl/option/GeneralOptions';//Imports configurable options for download category

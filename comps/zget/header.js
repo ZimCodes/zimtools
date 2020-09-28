@@ -9,7 +9,7 @@ const Header = props => <div>
         <meta name="name" content="Zget"/>
         <meta name="description" content="Wget options configurator. Make using the command-line interface easier with this productive web tool."/>
         <meta name="keywords" content="wget,wizard,options,configurator,tool,zget,commandline"/>
-        <title>Wget Options Configurator</title>
+        <title>Wget Configurator</title>
     </Head>
     {props.children}
 </div>;
