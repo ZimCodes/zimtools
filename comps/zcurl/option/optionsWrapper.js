@@ -4,10 +4,10 @@ export default (props) =>(
     <div className="table-responsive-sm">
         <h3 className="text-center py-5"><a id={props.id} className={styles.a} href={`#${props.id}`}>#</a> <span className={styles.span}>{props.title}</span></h3>
         <section className="row">
-            <button name="0" className="col btn btn-info border border-dark" onClick={props.btnClick}>#1</button>
-            <button name="1" className="col btn btn-info border border-dark" onClick={props.btnClick}>#2</button>
-            <button name="2" className="col btn btn-info border border-dark" onClick={props.btnClick}>#3</button>
-            <button name="3" className="col btn btn-info border border-dark" onClick={props.btnClick}>#4</button> 
+            <button name="0" className="col btn btn-info border border-dark" onClick={props.btnClick}>URL #1</button>
+            <button name="1" className="col btn btn-info border border-dark" onClick={props.btnClick}>URL #2</button>
+            <button name="2" className="col btn btn-info border border-dark" onClick={props.btnClick}>URL #3</button>
+            <button name="3" className="col btn btn-info border border-dark" onClick={props.btnClick}>URL #4</button>
         </section>
         <table className="table table-striped table-bordered table-hover text-center">
             <thead>

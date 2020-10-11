@@ -330,7 +330,7 @@ class Index extends React.Component{
             }
             code += `${urlsList[i]}`;
             if(urlsList.length > 1 && i < urlsList.length - 1){
-                code += ' --next ';
+                code += ' -: ';
             }
         }
         this.setState({curCommands:commandslist});
