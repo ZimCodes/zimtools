@@ -275,6 +275,12 @@ class Index extends React.Component{
 			case 'httpsonly':
 				command = '--https-only';
 				break;
+			case 'extension':
+				command = '-E';
+				break;
+			case 'ignore':
+				command = '--ignore-length';
+				break;
 		}
 		elemVal ? commandslist.push(command) :commandslist.splice(commandslist.indexOf(command),1);
         this.setState({options:commandslist});
@@ -293,6 +299,18 @@ class Index extends React.Component{
 				if(elemVal === ''){
 					commandslist.splice(commandslist.indexOf(http.agent),1);
 					http.agent =`` ;
+				}
+				break;
+			case 'redirect':
+				command = `--max-redirect=${elemVal}`;
+				if(commandslist.includes(http.redirect)){
+					commandslist.splice(commandslist.indexOf(http.redirect),1);
+				}
+				http.redirect = command;
+				commandslist.push(command);
+				if(elemVal === ''){
+					commandslist.splice(commandslist.indexOf(http.redirect),1);
+					http.redirect =``;
 				}
 				break;
 		}

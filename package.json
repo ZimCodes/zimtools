@@ -21,8 +21,8 @@
     "core-js": "^3.6.5",
     "minimist": "^1.2.5",
     "next": "^9.5.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "vercel": "^20.1.2"
   },
   "devDependencies": {

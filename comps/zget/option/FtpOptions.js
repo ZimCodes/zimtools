@@ -1,6 +1,7 @@
 import Options from "./optionsWrapper";
+import React from 'react';
 const REF_FTP = <a href="https://www.gnu.org/software/wget/manual/html_node/FTP-Options.html#FTP-Options" target="_blank" rel="noreferrer noopener">More Info</a>;
-const REF_FTPS = <a href="https://www.gnu.org/software/wget/manual/html_node/FTP-Options.html#FTPS-Options" target="_blank" rel="noreferrer noopener">More Info</a>;
+//const REF_FTPS = <a href="https://www.gnu.org/software/wget/manual/html_node/FTP-Options.html#FTPS-Options" target="_blank" rel="noreferrer noopener">More Info</a>;
 
 const FtpOptions = props => <Options title="FTP(S) Options" id={"ftp"}>
     <tr className="table-success">

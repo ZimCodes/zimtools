@@ -26,5 +26,6 @@ export let file = {
     config:''
 };
 export let http = {
-    agent:''
+    agent:'',
+    redirect:''
 };
