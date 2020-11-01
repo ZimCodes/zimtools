@@ -14,7 +14,3 @@
 .cardHeader{
     text-shadow: 1pt 1pt 2pt #000000;
 }
-.card:hover{
-    width:95%;
-    height:95%;
-}
