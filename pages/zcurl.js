@@ -6,13 +6,14 @@ import DownloadOptions from "../comps/zcurl/option/DownloadOptions";
 import ProtocolOptions from "../comps/zcurl/option/ProtocolOptions";
 import HttpOptions from "../comps/zcurl/option/HttpOptions";
 import Outputcode from "../comps/zcurl/outputcode";//Imports the output component
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";//Bootstrap dependency
 //Styles
 import footstyles from "../styles/zcurl/footer.module.css";
 //Import Addons Here
 import IconNav from "../comps/zcurl/addons/fab_sub_menu/iconnav";//Imports F.A.B Components
 import React from 'react';//React dependency
-import {ZCURL} from "../comps/date";//Date of last updated content
+import {ZCURL_DATE} from "../comps/date";//Date of last updated content
+import {ZCURL_EMAIL} from "../comps/email";//Email to send feedback
 /*Adds the Default Commands to the command list
 * The Commandlist's job is to persistently hold all options the user wants to configure.*/
 let commandslist = [
@@ -28,8 +29,6 @@ let inputStates =[
     new Map(),
 ];
 let urlsList = [];
-/*The Email to use when receiving feedback*/
-const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=cURL%20Feedback";
 class Index extends React.Component{
     constructor(props){
         /*What's inside the state:
@@ -376,9 +375,9 @@ class Index extends React.Component{
                 </div>
                 <footer className={`${footstyles.footer} py-2 text-center text-white`}>
                     <address>
-                        <a className={`${footstyles.link} text-light font-weight-bold`} href={FEEDBACK_EMAIL}>Send Feedback</a>
+                        <a className={`${footstyles.link} text-light font-weight-bold`} href={ZCURL_EMAIL}>Send Feedback</a>
                     </address>
-                    <p>Updated {ZCURL}</p>
+                    <p>Updated {ZCURL_DATE}</p>
                 </footer>
             </Header>
         );

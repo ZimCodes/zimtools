@@ -1,0 +1,11 @@
+.span{
+    text-shadow:1px 1px 4px #000000;
+    -moz-animation: accent 3s infinite alternate;
+    -o-animation: accent 3s infinite alternate;
+    -webkit-animation: accent 3s infinite alternate;
+    animation: accent 3s infinite alternate;
+}
+@keyframes accent{
+    from{text-shadow:1px 1px 1px #000000;}
+    to{text-shadow:2px 2px 5px #000000;}
+}

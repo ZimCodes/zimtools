@@ -6,20 +6,17 @@ import FilterOptions from "../comps/zphuber/option/FilterOptions";
 import Filterrow from "../comps/zphuber/table/filterrow";
 import Outputcode from "../comps/zphuber/outputcode";//Imports the output component
 import {mainCommandEntry,filterCommandEntry} from"../comps/zphuber/CommStorage";//Imports text command storage Component
-import {ZPHUBER} from "../comps/date";
+import {ZPHUBER_DATE} from "../comps/date";
+import {ZPHUBER_EMAIL} from "../comps/email";
 
 import React from 'react';//React dependency
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";//Bootstrap dependency
 /*The Default commands to start with*/
 const defaultCommands = [];
 
 /*Adds the Default Commands to the command list
 * The Commandlist's job is to persistently hold all options the user wants to configure.*/
 let commandslist = defaultCommands;
-/*The last date this was modified*/
-const DATE_MODIFIED = ZPHUBER;
-/*The Email to use when receiving feedback*/
-const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=ZPhuber%20Feedback";
 class Index extends React.Component{
     constructor(props){
         /*What's inside the state:
@@ -200,9 +197,9 @@ class Index extends React.Component{
                 </div>
                 <footer className="py-2 text-center bg-secondary text-warning">
                     <address style={{textDecoration:'underline'}}>
-                        <a className="text-warning font-weight-bold" href={FEEDBACK_EMAIL}>Send Feedback</a>
+                        <a className="text-warning font-weight-bold" href={ZPHUBER_EMAIL}>Send Feedback</a>
                     </address>
-                    <p>Updated {DATE_MODIFIED}</p>
+                    <p>Updated {ZPHUBER_DATE}</p>
                 </footer>
             </Header>
         );

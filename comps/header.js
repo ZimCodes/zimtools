@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const Header = props => <div>
+const Header = props => <div style={{backgroundColor:"#cccccc"}}>
     <Head>
         <meta name="author" content="Zim" />
         <meta name="name" content="Zget"/>

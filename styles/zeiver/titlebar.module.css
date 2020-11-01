@@ -1,0 +1,20 @@
+.h1{
+    text-shadow:1px 1px 4px #000;
+    color:#FFD700;
+}
+.header{
+    background-color: #2e2459;
+}
+.span{
+    -moz-animation: blink 1s infinite alternate;
+    -o-animation: blink 1s infinite alternate;
+    -webkit-animation: blink 1s infinite alternate;
+    animation: blink 1s infinite alternate;
+}
+@keyframes blink{
+    from{opacity: 1;}
+    to{opacity:0;}
+}
+.svg:hover{
+    opacity:0.5;
+}

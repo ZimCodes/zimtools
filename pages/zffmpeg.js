@@ -6,10 +6,13 @@ import GlobalOptions from "../comps/zffmpeg/option/GlobalOptions";
 import Outputcode from "../comps/zffmpeg/outputcode";//Imports the output component
 import IconNav from "../comps/zffmpeg/nav/iconnav";//Imports F.A.B Components
 import {globalEntry,iMainEntry,oMainEntry,oVideoEntry,oAdvancedEntry} from "../comps/zffmpeg/CommStorage";//Imports text command storage Component
-import {ZFFMPEG} from "../comps/date";
-import React from 'react';//React dependency
+import {ZFFMPEG_DATE} from "../comps/date";//Date of last updated content
+import {ZFFMPEG_EMAIL} from "../comps/email";//Email to send feedback
+//styles
 import styles from '../styles/zffmpeg/foot.module.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+
+import React from 'react';//React dependency
+import "bootstrap/dist/css/bootstrap.min.css";//Bootstrap dependency
 
 /* The Commandlist's job is to persistently hold all options the user wants to configure.*/
 let inputFiles = ['','',''];
@@ -21,10 +24,7 @@ let outputOneCommandList = [];
 let outputTwoCommandList = [];
 let outputThreeCommandList = [];
 let globalCommandList = [];
-/*The last date this was modified*/
-const DATE_MODIFIED = ZFFMPEG;
-/*The Email to use when receiving feedback*/
-const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=ZFFmpeg%20Feedback";
+
 class Index extends React.Component{
     constructor(props){
         /*What's inside the state:
@@ -585,9 +585,9 @@ class Index extends React.Component{
                 </div>
                 <footer className={`py-2 text-center bg-dark ${styles.foot}`}>
                     <address>
-                        <a className={`font-weight-bold ${styles.footlink}`} href={FEEDBACK_EMAIL}>Send Feedback</a>
+                        <a className={`font-weight-bold ${styles.footlink}`} href={ZFFMPEG_EMAIL}>Send Feedback</a>
                     </address>
-                    <p>Updated {DATE_MODIFIED}</p>
+                    <p>Updated {ZFFMPEG_DATE}</p>
                 </footer>
             </Header>
         );

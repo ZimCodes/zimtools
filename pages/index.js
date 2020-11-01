@@ -31,6 +31,8 @@ class Index extends React.Component{
 					<Wizsection>
 						<Wiz link={'/zcurl'} title={'cURL'} headStyle={styles.curl}
 							 about="A command line tool for transferring data."/>
+						<Wiz link={'/zeiver'} title={'Zeiver'} headStyle={styles.zeiver}
+							 about="Designed to scrape and download content recursively from ODs (open directories)"/>
 					</Wizsection>
 				</section>
 

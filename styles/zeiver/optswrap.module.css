@@ -1,0 +1,20 @@
+.a{
+    color:#ff4d4d;
+    text-decoration:none;
+}
+.a:hover{
+    color:#b30000;
+}
+.span{
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px #FFD700;
+    color:#2e2459;
+    font-weight: bolder;
+}
+.tr{
+    text-shadow: 1pt 2pt 2pt #000;
+    background-color: #0b7261;
+}
+.tbody{
+    background-color: #fff5e6;
+}
