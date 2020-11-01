@@ -9,6 +9,7 @@ import {globalEntry,iMainEntry,oMainEntry,oVideoEntry,oAdvancedEntry} from "../c
 import {ZFFMPEG} from "../comps/date";
 import React from 'react';//React dependency
 import styles from '../styles/zffmpeg/foot.module.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 /* The Commandlist's job is to persistently hold all options the user wants to configure.*/
 let inputFiles = ['','',''];

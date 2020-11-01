@@ -9,6 +9,7 @@ import {mainCommandEntry,filterCommandEntry} from"../comps/zphuber/CommStorage";
 import {ZPHUBER} from "../comps/date";
 
 import React from 'react';//React dependency
+import "bootstrap/dist/css/bootstrap.min.css";
 /*The Default commands to start with*/
 const defaultCommands = [];
 

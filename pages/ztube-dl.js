@@ -19,6 +19,7 @@ import {preConfig,videoSelect,download,file,work,videoFormat,subAuth,post} from 
 import {ZTUBE_DL} from "../comps/date";
 
 import styles from '../styles/ztube-dl/index.module.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 let commandslist = [];
 const DATE_MODIFIED = ZTUBE_DL;
 const FEEDBACK_EMAIL = "mailto:zimcodes@pm.me?subject=Ztube-dl%20Feedback";

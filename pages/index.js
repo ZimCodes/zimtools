@@ -2,6 +2,7 @@ import Header from '../comps/header';
 import Topbar from '../comps/topbar';
 import Wiz from "../comps/wiz";
 import Wizsection from "../comps/wizsection";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import styles from "../styles/main/tools.module.css";
 import React from 'react';

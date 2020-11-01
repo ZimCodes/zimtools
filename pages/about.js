@@ -1,6 +1,7 @@
 import styles from '../styles/main/about.module.css';
 import Link from 'next/link';
 import Header from '../comps/header';
+import "bootstrap/dist/css/bootstrap.min.css";
 const About = ()=>(
     <Header>
         <Link href='/'>

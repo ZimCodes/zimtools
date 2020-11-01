@@ -6,6 +6,7 @@ import DownloadOptions from "../comps/zcurl/option/DownloadOptions";
 import ProtocolOptions from "../comps/zcurl/option/ProtocolOptions";
 import HttpOptions from "../comps/zcurl/option/HttpOptions";
 import Outputcode from "../comps/zcurl/outputcode";//Imports the output component
+import "bootstrap/dist/css/bootstrap.min.css";
 //Styles
 import footstyles from "../styles/zcurl/footer.module.css";
 //Import Addons Here
