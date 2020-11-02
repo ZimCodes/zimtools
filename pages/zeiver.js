@@ -1,4 +1,4 @@
-import Header from '../comps/header';//Imports HTML <head> tag
+import Header from '../comps/zeiver/header';//Imports HTML <head> tag
 import Titlebar from '../comps/zeiver/titlebar';//Imports the Title banner for the current page
 import Url from '../comps/zeiver/url';//Imports the URL input field & glowing label
 import DownloadOptions from '../comps/zeiver/option/DownloadOptions';//Imports configurable options for download category
