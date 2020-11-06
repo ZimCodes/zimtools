@@ -12,12 +12,12 @@ export default (props) => (
         <tr>
             <td>Accept Files</td>
             <td className="align-middle"><textarea id={props.curIndex} cols="20" rows="6" name="accept" placeholder="(mov|mp3|lunchbox_pic1\.jpg|(pic_of_me.gif))" onChange={props.dlTextInput}/></td>
-            <td className="text-center align-middle">Using [Regex], specify which files to accept for downloading. <strong>This option takes precedence over reject option.</strong>  {InfoURL("https://github.com/ZimCodes/Zeiver#download")}</td>
+            <td className="text-center align-middle">Using [Regex], specify which files to accept for scraping. <strong>This option takes precedence over reject option.</strong>  {InfoURL("https://github.com/ZimCodes/Zeiver#download")}</td>
         </tr>
         <tr>
             <td>Reject Files</td>
             <td className="align-middle"><textarea id={props.curIndex} name="reject" cols="20" rows="6" placeholder="(jpg|png|3gp|(pic_of_me.gif))" onChange={props.dlTextInput}/></td>
-            <td className="text-center align-middle">Using <em>[Regex]</em>, specify which files to reject for downloading. <strong>The accept option takes precedence over reject option.</strong> {InfoURL("https://github.com/ZimCodes/Zeiver#download")}</td>
+            <td className="text-center align-middle">Using <em>[Regex]</em>, specify which files to reject for scraping. <strong>The accept option takes precedence over reject option.</strong> {InfoURL("https://github.com/ZimCodes/Zeiver#download")}</td>
         </tr>
         <tr>
             <td>Get Links Only</td>
