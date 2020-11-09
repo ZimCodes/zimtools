@@ -50,8 +50,11 @@ class Index extends React.Component{
         const elemName = event.target.name;
         let command = '';
         switch(elemName){
-            case 'links':
-                command = '--links-only';
+            case 'record-only':
+                command = '--record-only';
+                break;
+            case 'record':
+                command = '--record';
                 break;
         }
         elemValue ? commandslist[elemID].set(elemName, command) : commandslist[elemID].set(elemName,"");

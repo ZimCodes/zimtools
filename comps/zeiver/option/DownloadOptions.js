@@ -20,9 +20,14 @@ export default (props) => (
             <td className="text-center align-middle">Using <em>[Regex]</em>, specify which files to reject for scraping. <strong>The accept option takes precedence over reject option.</strong> {InfoURL("https://github.com/ZimCodes/Zeiver#download")}</td>
         </tr>
         <tr>
-            <td>Get Links Only</td>
-            <td className="align-middle"><input id={props.curIndex} name="links" type="checkbox" onChange={props.dlCheckInput}/></td>
-            <td className="text-center">After scraping, instead of downloading the files, save the links to them. {InfoURL("https://github.com/ZimCodes/Zeiver#download")}</td>
+            <td>Activate Recorder</td>
+            <td className="align-middle"><input id={props.curIndex} name="record" type="checkbox" onChange={props.dlCheckInput}/></td>
+            <td className="text-center"><strong>Activates the Recorder.</strong> The Recorder saves the links to each file. {InfoURL("https://github.com/ZimCodes/Zeiver#download")}</td>
+        </tr>
+        <tr>
+            <td>Record Links Only</td>
+            <td className="align-middle"><input id={props.curIndex} name="record-only" type="checkbox" onChange={props.dlCheckInput}/></td>
+            <td className="text-center"><strong>Activates the Recorder.</strong> After scraping, instead of downloading the files, save the links to them. {InfoURL("https://github.com/ZimCodes/Zeiver#download")}</td>
         </tr>
     </Options>
 );
