@@ -23,7 +23,7 @@ const WorkAround = props => <Options title="Work Around" id={"work"}>
         <td className="text-center">Maximum number of seconds to sleep. <strong>Must be used with <em>Sleep Interval</em></strong>. {REF_URL}</td>
     </tr>
     <tr>
-        <td><span className="badge badge-warning">*New</span> Geo Bypass</td>
+        <td>Geo Bypass</td>
         <td className="align-middle"><input name="geobypass" type="text" maxLength="2" placeholder="CJ" onChange={props.workTextInput}/> </td>
         <td className="text-center">Force bypass geographic restriction by providing the <em>[<strong>ISO Country Code</strong>]</em>. {GEO_URL}</td>
     </tr>

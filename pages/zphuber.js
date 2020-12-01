@@ -6,7 +6,7 @@ import FilterOptions from "../comps/zphuber/option/FilterOptions";
 import Filterrow from "../comps/zphuber/table/filterrow";
 import Outputcode from "../comps/zphuber/outputcode";//Imports the output component
 import {mainCommandEntry,filterCommandEntry} from"../comps/zphuber/CommStorage";//Imports text command storage Component
-import {ZPHUBER_DATE} from "../comps/date";
+import {ZPHUBER_DATE,ZPHUBER_TIME} from "../comps/date";
 import {ZPHUBER_EMAIL} from "../comps/email";
 
 import React from 'react';//React dependency
@@ -199,7 +199,7 @@ class Index extends React.Component{
                     <address style={{textDecoration:'underline'}}>
                         <a className="text-warning font-weight-bold" href={ZPHUBER_EMAIL}>Send Feedback</a>
                     </address>
-                    <p>Updated {ZPHUBER_DATE}</p>
+                    <time dateTime={ZPHUBER_TIME}>Updated {ZPHUBER_DATE}</time>
                 </footer>
             </Header>
         );

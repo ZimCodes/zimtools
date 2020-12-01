@@ -6,7 +6,7 @@ import GlobalOptions from "../comps/zffmpeg/option/GlobalOptions";
 import Outputcode from "../comps/zffmpeg/outputcode";//Imports the output component
 import IconNav from "../comps/zffmpeg/nav/iconnav";//Imports F.A.B Components
 import {globalEntry,iMainEntry,oMainEntry,oVideoEntry,oAdvancedEntry} from "../comps/zffmpeg/CommStorage";//Imports text command storage Component
-import {ZFFMPEG_DATE} from "../comps/date";//Date of last updated content
+import {ZFFMPEG_DATE,ZFFMPEG_TIME} from "../comps/date";//Date of last updated content
 import {ZFFMPEG_EMAIL} from "../comps/email";//Email to send feedback
 //styles
 import styles from '../styles/zffmpeg/foot.module.css';
@@ -587,7 +587,7 @@ class Index extends React.Component{
                     <address>
                         <a className={`font-weight-bold ${styles.footlink}`} href={ZFFMPEG_EMAIL}>Send Feedback</a>
                     </address>
-                    <p>Updated {ZFFMPEG_DATE}</p>
+                    <time dateTime={ZFFMPEG_TIME}>Updated {ZFFMPEG_DATE}</time>
                 </footer>
             </Header>
         );

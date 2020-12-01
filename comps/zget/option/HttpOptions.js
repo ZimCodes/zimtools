@@ -14,17 +14,17 @@ const HttpOptions = props => <Options title="HTTP(S) Options" id={"http"}>
         <td className="text-center">Wget asks the server to compress the file using the gzip compression format. <em>gzip is the only available format.</em> {REF_HTTP}</td>
     </tr>
     <tr className="table-primary">
-        <td> <span className="badge badge-dark">New!</span> Adjust Extension</td>
+        <td>Adjust Extension</td>
         <td className="align-middle"><input name="extension" type="checkbox" onChange={props.httpCheckInput} /></td>
         <td className="text-center">If a file of type, '<em>text/html</em>' is downloaded and the URL does not end with the regexp, ‘<em>\.[Hh][Tt][Mm][Ll]?</em>’, the suffix ‘<em>.html</em>’ will be appended to the local filename. {REF_HTTP}</td>
     </tr>
     <tr className="table-primary">
-        <td> <span className="badge badge-dark">New!</span> Ignore Content-Length</td>
+        <td>Ignore Content-Length</td>
         <td className="align-middle"><input name="ignore" type="checkbox" onChange={props.httpCheckInput} /></td>
         <td className="text-center align-middle">Ignore Content-Length header. {REF_HTTP}</td>
     </tr>
     <tr className="table-primary">
-        <td> <span className="badge badge-dark">New!</span> Max Redirects</td>
+        <td>Max Redirects</td>
         <td className="align-middle"><input name="redirect" type="number" placeholder="20" onChange={props.httpTextInput} /></td>
         <td className="text-center">Maximum number of redirects to follow for a resource. <em>Default is 20</em>. {REF_HTTP}</td>
     </tr>

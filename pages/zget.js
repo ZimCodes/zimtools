@@ -10,7 +10,7 @@ import AcceptRejectOptions from "../comps/zget/option/AcceptRejectOptions";
 import WgetCode from "../comps/zget/wgetcode";
 import FileOptions from "../comps/zget/option/FileOptions";
 import {dlprev,dirprev,recursive,accRej,file,http} from "../comps/zget/CommStorage";
-import {ZGET_DATE} from "../comps/date";
+import {ZGET_DATE,ZGET_TIME} from "../comps/date";
 import {ZGET_EMAIL} from "../comps/email";
 
 import React from 'react';
@@ -547,7 +547,7 @@ class Index extends React.Component{
 					<address className={styles.address}>
 						<a className="text-light font-weight-bold" href={ZGET_EMAIL}>Send Feedback</a>
 					</address>
-						<p>Updated {ZGET_DATE}</p>
+					<time dateTime={ZGET_TIME}>Updated {ZGET_DATE}</time>
 				</footer>
 			</Header>
 		);

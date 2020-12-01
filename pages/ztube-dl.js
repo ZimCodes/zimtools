@@ -16,7 +16,7 @@ import VideoFormat from "../comps/ztube-dl/option/VideoFormat";
 import SubAuth from "../comps/ztube-dl/option/SubAuth";
 import PostProcess from "../comps/ztube-dl/option/PostProcess";
 import {preConfig,videoSelect,download,file,work,videoFormat,subAuth,post} from "../comps/ztube-dl/CommStorage";
-import {ZTUBE_DL_DATE} from "../comps/date";
+import {ZTUBE_DL_DATE,ZTUBE_DL_TIME} from "../comps/date";
 import {ZTUBE_DL_EMAIL} from "../comps/email";
 
 import styles from '../styles/ztube-dl/index.module.css';
@@ -783,7 +783,7 @@ class Index extends React.Component{
                     <address className={styles.address}>
                         <a className="text-light font-weight-bold" href={ZTUBE_DL_EMAIL}>Send Feedback</a>
                     </address>
-                    <p>Updated {ZTUBE_DL_DATE}</p>
+                    <time dateTime={ZTUBE_DL_TIME}>Updated {ZTUBE_DL_DATE}</time>
                 </footer>
             </Header>
         );

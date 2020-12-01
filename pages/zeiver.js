@@ -5,7 +5,7 @@ import DownloadOptions from '../comps/zeiver/option/DownloadOptions';//Imports c
 import FileDirOptions from "../comps/zeiver/option/FileDirOptions";
 import HttpOptions from "../comps/zeiver/option/HttpOptions";
 import Outputcode from "../comps/zeiver/outputcode";//Imports the output component
-import {ZEIVER_DATE} from "../comps/date";//Date of last updated content
+import {ZEIVER_DATE,ZEIVER_TIME} from "../comps/date";//Date of last updated content
 import {ZEIVER_EMAIL} from "../comps/email";//Email to send feedback
 //Styles
 import footstyles from "../styles/zeiver/footer.module.css";
@@ -240,7 +240,7 @@ class Index extends React.Component{
                     <address>
                         <a className={`${footstyles.link} font-weight-bold`} href={ZEIVER_EMAIL}>Send Feedback</a>
                     </address>
-                    <p>Updated {ZEIVER_DATE}</p>
+                    <time dateTime={ZEIVER_TIME}>Updated {ZEIVER_DATE}</time>
                 </footer>
             </Header>
         );

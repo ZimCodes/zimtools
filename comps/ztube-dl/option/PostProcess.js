@@ -25,7 +25,7 @@ const PostProcess = props => <Options title="Post-processing" id={"post"}>
             <em>"wav"</em>; <em>(Default is "best")</em>; <strong>MUST use <em>'Convert to Audio'</em></strong>. {REF_URL}</td>
     </tr>
     <tr>
-        <td><span className="badge badge-warning">*New</span> Recode Video</td>
+        <td>Recode Video</td>
         <td className="align-middle">
             <select name="reencode" defaultValue="none" onChange={props.postTextInput}>
                 <option value="mp4">mp4</option>
@@ -83,7 +83,7 @@ const PostProcess = props => <Options title="Post-processing" id={"post"}>
         <td className="text-center">Convert Subtitles to other formats. <em>("srt"|"ass"|"vtt"|"lrc")</em>. {REF_URL}</td>
     </tr>
     <tr>
-        <td><span className="badge badge-warning">*New</span> Keep Video</td>
+        <td>Keep Video</td>
         <td className="align-middle"><input name="keepvid" type="checkbox" onChange={props.postCheckInput} /></td>
         <td className="text-center">Keep the video file on disk after post-processing. {REF_URL}</td>
     </tr>

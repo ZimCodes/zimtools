@@ -12,7 +12,7 @@ import footstyles from "../styles/zcurl/footer.module.css";
 //Import Addons Here
 import IconNav from "../comps/zcurl/addons/fab_sub_menu/iconnav";//Imports F.A.B Components
 import React from 'react';//React dependency
-import {ZCURL_DATE} from "../comps/date";//Date of last updated content
+import {ZCURL_DATE,ZCURL_TIME} from "../comps/date";//Date of last updated content
 import {ZCURL_EMAIL} from "../comps/email";//Email to send feedback
 /*Adds the Default Commands to the command list
 * The Commandlist's job is to persistently hold all options the user wants to configure.*/
@@ -377,7 +377,7 @@ class Index extends React.Component{
                     <address>
                         <a className={`${footstyles.link} text-light font-weight-bold`} href={ZCURL_EMAIL}>Send Feedback</a>
                     </address>
-                    <p>Updated {ZCURL_DATE}</p>
+                    <time dateTime={ZCURL_TIME}>Updated {ZCURL_DATE}</time>
                 </footer>
             </Header>
         );
