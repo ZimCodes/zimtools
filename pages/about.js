@@ -11,10 +11,10 @@ const About = ()=>(
             <section className={'text-center'}>
                 <h1><u>About</u></h1>
                 <p className={`${styles.msg} mt-4`}>
-                    Zimtools helps configure a set of commands to get what you need from a command line tool.
-                    While using command line tools, I found it tedious venturing back and forth from an open terminal to the
-                    documentation <em>(which I had to scroll through to find what I'm looking for)</em>.
-                    Now after creating a few configurators, I've decided to deploy this website for others to use.
+                    Zimtools helps choose the appropriate commands from a command line tool.
+                    From my experience, I found it tedious switching between an open terminal and the documentation
+                    <em>(which I had to scroll through to find what I'm looking for)</em>.
+                    After creating a few configurators, I've decided to deploy this website for others to use.
                 </p>
             </section>
             <section className={'text-center'}>
