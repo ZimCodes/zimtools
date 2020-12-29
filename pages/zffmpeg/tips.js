@@ -16,7 +16,7 @@ const FFmpegTips = ()=>(
             <dd className={styles.dd}>The most channels</dd>
             <dt>Subtitles</dt>
             <dd className={styles.dd}>The first subtitle stream</dd>
-            <dt >Data & Attachments</dt>
+            <dt>Data & Attachments</dt>
             <dd className={styles.dd}><strong>Not</strong> automatically selected</dd>
         </dl>
         <hr/>
