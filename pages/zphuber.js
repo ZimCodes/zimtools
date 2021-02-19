@@ -5,7 +5,7 @@ import MainOptions from '../comps/zphuber/option/MainOptions';//Imports configur
 import FilterOptions from "../comps/zphuber/option/FilterOptions";
 import Filterrow from "../comps/zphuber/table/filterrow";
 import Outputcode from "../comps/zphuber/outputcode";//Imports the output component
-import {mainCommandEntry,filterCommandEntry} from"../comps/zphuber/CommStorage";//Imports text command storage Component
+import {mainCommandEntry,filterCommandEntry} from "../comps/zphuber/CommStorage";//Imports text command storage Component
 import {ZPHUBER_DATE,ZPHUBER_TIME} from "../comps/date";
 import {ZPHUBER_EMAIL} from "../comps/email";
 

@@ -144,9 +144,6 @@ const Filterrow = props => <Filtertable>
     <tr>
         <td onClick={props.getFilter}>vr</td>
         <td onClick={props.getFilter}>webcam</td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
 </Filtertable>;
 

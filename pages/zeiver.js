@@ -174,11 +174,6 @@ class Index extends React.Component{
             inputStates[elemID].set(elemName,"");
         this.setOutput();
     }
-    /*Retrieve the current URL index to configure*/
-    getBtnIndex(event){
-        const elemIndex = Number(event.target.name);
-        this.setState({curIndex: elemIndex});
-    }
     /*Gets the URL from the user's input*/
     getURL(event){
         const elemVal = event.target.value.trim();
