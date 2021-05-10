@@ -1,10 +1,9 @@
 {
-  "name": "ztools-web",
+  "name": "ZimTools",
   "version": "4.1.0",
-  "description": "command line\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[Cweb tool for command options configurations",
+  "description": "command line web tool for command options configurations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
     "start": "next start"
@@ -21,10 +20,9 @@
     "bootstrap": "^4.5.3",
     "core-js": "^3.8.1",
     "minimist": "^1.2.5",
-    "next": "^10.0.4",
+    "next": "^10.2.0",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "vercel": "^20.1.4"
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "react-copy-to-clipboard": "^5.0.2"
